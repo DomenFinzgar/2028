@@ -6,7 +6,6 @@
         <!-- To use other icons here, you need to import them in the Shortcut component -->
         <Shortcut link="/getting-started" text="Introduction" icon="play-icon" />
       </nav>
-      <GitLink class="git" size="large" />
     </div>
   </Layout>
 </template>
