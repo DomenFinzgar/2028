@@ -3,13 +3,15 @@
 @import 'config/mixins';
 @import 'config/functions';
 @import 'prism';
+$font-prefix: './custom/path/to/font/files';
+@import 'node_modules/@ibm/plex/scss/ibm-plex.scss';
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'IBM Plex Mono', 'IBM Plex Mono';
+  font-family: 'IBM Plex Mono', 'Curier';
   margin: 0;
   padding: 0;
   line-height: 1.7;
